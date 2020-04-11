@@ -46,6 +46,10 @@ a {
     margin: 1rem;
 }
 
+.logo img{
+    width: 250px;
+}
+
 .info{
     margin-top: 2.5rem;
     padding: 1rem;
