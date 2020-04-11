@@ -2,6 +2,10 @@
 #1C2F94, #F46552, #FFF9F8
 font: Open sans
 */
+@font-face {
+    font-family: Ferpal;
+    src: url(fonts/Ferpal-Regular.otf);
+  }  
 
 /* general */
 *{
@@ -11,6 +15,9 @@ font: Open sans
 
 body{
     background: #1C2F94;
+    font-family: Ferpal;
+    color: #333333;
+    line-height: 165%;
 }
 
 p {
@@ -19,6 +26,7 @@ p {
 
 a {
     color: #F46552;
+    text-decoration: none;
  }
  
 .wrapper{
@@ -31,6 +39,11 @@ a {
 .inner-wrapper{
     max-width: 650px;
     margin: auto;
+}
+
+.logo{
+    text-align: center;
+    margin: 1rem;
 }
 
 .info{
@@ -61,6 +74,12 @@ iframe{
 }
 
 ul li {
-    padding: .2rem;
+    /* font-size: .7rem; */
+    line-height: 1rem;
+    padding: 1rem;
 }
 
+li .position{
+    font-size: .8rem;
+    opacity: .8;
+}
