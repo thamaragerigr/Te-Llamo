@@ -1,0 +1,59 @@
+/* 
+#1C2F94, #F46552, #FFF9F8
+font: Open sans
+*/
+
+/* general */
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: #1C2F94;
+}
+
+p {
+    margin-bottom: 1rem;
+}
+
+a {
+    color: #F46552;
+ }
+ 
+.wrapper{
+    background: #FFF9F8;
+    padding: 2.5rem 0 ;
+    width: 100%;
+    margin-top: -1rem;
+}
+
+.inner-wrapper{
+    max-width: 650px;
+    margin: auto;
+}
+
+.info{
+    margin-top: 2.5rem;
+    padding: 1rem;
+}
+
+video{
+    width: 100%;
+    max-height: 100vh;
+    margin: 0;
+}
+
+.extra-info{
+    text-align: center;
+}
+
+.extra-info ul {
+    list-style: none;
+    padding-bottom: 1rem;
+}
+
+ul li {
+    padding: .2rem;
+}
+
