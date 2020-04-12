@@ -5,6 +5,7 @@
     margin:43px auto;
     border:none;
     height:auto;
+    cursor: pointer;
 }
 
 .playBtn{
@@ -17,9 +18,16 @@
     color: rgb(255, 255, 255);
     opacity: .9;
     font-size: 5rem;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.playBtn:hover{
+    opacity: 1;
 }
 
 
 .ytLoader{
     position: relative;
+   
 }
